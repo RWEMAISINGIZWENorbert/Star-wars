@@ -1,0 +1,56 @@
+.loader-section{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .loader-button {
+    margin: 1rem;
+    height: 10rem;
+    width: 10rem;
+    background: blue;
+    position: relative;
+    display: flex;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    /* background-color: #007bff; */
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+  }
+
+  .loader-button .spinner {
+    position: absolute;
+    /* width: 50px;
+    height: 50px; */
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    animation-duration: 2s;
+  }
+
+  .loader-button span {
+    visibility: hidden;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

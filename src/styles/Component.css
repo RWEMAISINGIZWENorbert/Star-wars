@@ -1,0 +1,117 @@
+.component-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    transform: translateY(4rem);
+    gap: 1rem;
+}
+.component-section .main{
+   padding: 1rem; 
+   color: #fff;
+   /* background: rgb(243, 240, 240); */
+   /* background-color: #363636; */
+   background-color: #1a1818;
+   border-radius: 0.8rem;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+.component-section .main:hover{
+    background: #4e4e4e;
+}
+
+.component-section .main:active{
+    background: #363636;
+}
+
+.component-section img{
+   height: 300px;
+   width: auto-fit;
+   display: flex;
+   width: 300px;
+   border-radius: 1rem;
+}
+
+.main p{
+    float: right;
+    text-align: right;
+    transform: translateX(-8px);
+    /* box-shadow: 1px 1px 2px 1px  rgb(105, 104, 104); */
+    background: #363636;
+    padding: 4px 8px;
+    border-radius: 0.9rem;
+}
+
+.main h4{
+    font-size: 1.5rem;
+    text-align: center;
+    background: transparent;
+}
+
+
+.component2-section{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.component2-section .img{
+    position: relative;
+}
+
+.component2-section .img .icon{
+  position: absolute;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background: #1a1a1a;
+  color: #fff;
+  border-radius: 4rem;
+  margin: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}   
+
+.component2-section .img .icon:hover{
+    background: #363636;
+    scale: 1.05;
+}
+
+.component2-section p{
+    border: 1px solid rgb(228, 217, 217);
+    padding: 0.7rem;
+    border-radius: 2rem;
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.component2-section p:hover{
+    border: 1px solid transparent;
+    color: #fff;
+   background: rgb(1, 180, 1);
+}
+
+.component2-section p:hover{
+    scale: 1.05;
+}
+
+
+.component2-section h1{
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.component2-section h1:hover{
+    scale: 1.05;
+}
+
+.component2-section img{
+    height: 400px;
+    width: 440px;
+    border-radius: 2rem;
+    cursor: pointer;
+}

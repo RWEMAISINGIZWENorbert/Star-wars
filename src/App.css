@@ -1,0 +1,30 @@
+.btns-actions{
+  display: flex;
+  transform: translateY(5rem);
+  /* padding: 20rem; */
+  /* background: blue; */
+  justify-content: center;
+}
+
+.btns-actions button{
+  border: 1px solid transparent;
+  outline: none;
+  box-shadow: -1px 1px 1px 1px rgb(34, 33, 33);
+  background: #1a1818;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  padding: 0.4rem;
+  margin: 0.5rem;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btns-actions button:hover{
+   border: 1px solid rgb(34, 33, 33);
+   box-shadow: none;
+}
+
+.arrow-icon{
+  background: transparent;
+  font-size: 1.7rem;
+}

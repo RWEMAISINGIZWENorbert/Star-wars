@@ -1,0 +1,103 @@
+.header-section{
+    z-index:1;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;  
+    /* position: fixed; */
+}
+
+.header-section .logo{
+   margin: 1rem;
+   font-size: 1.2rem;
+   cursor: pointer;
+   transform: 0.3s ease;
+   color: #fff;
+   transition:  all 0.3s ease;
+}
+
+.header-section .details-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-1.2rem);
+}
+
+.header-section .search{
+    position: relative;
+    width: 300px;
+    height: 20px;
+    background: rgb(230, 225, 225);
+    padding: 1rem;
+    /* border-radius: 1.2rem; */
+    border-top-left-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+}
+
+.icon{
+    background: transparent;
+}
+
+.search input{
+    position: absolute;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    width: 70%;
+}
+
+.search button{
+    float: right;
+    position: absolute;
+    font-size: 1.6rem;
+    top: 50%;
+    right: -18px;
+    transform: translateY(-50%);
+    height: 100%;    
+    background: rgb(1, 180, 1);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-top-right-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    cursor: pointer;
+}
+
+.times-icon{
+    background: #fff;
+    transform: translateX(16rem);
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    transition: all 0.3s ease;
+}
+
+
+.btns button{
+    border: none;
+    outline: none;
+    background: #363636;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btns button:hover{
+   scale: 1.05;
+}
+
+.btns button:active{
+  background: rgba(85, 85, 1, 0.644);
+  background: rgba(228, 228, 9, 0.644);
+}
